@@ -1,0 +1,42 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(130deg, rgba(2,0,36,1) 0%, rgba(58,4,36,1) 15%, rgba(9,121,114,1) 54%, rgba(156,190,56,1) 75%, rgba(140,0,255,1) 93%);
+}
+
+button:active {
+  background-color: gold;
+}
+button{
+  margin: 20px;
+}
+
+.green {
+  outline-color: green;
+}
+
+.red{
+  outline-color: red;
+}
+
+.music{
+  background-color: rgba(54, 224, 210, 0.1);
+  height: 400px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+.audio{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+  height: 40%;
+  background: #f00;
+  border-radius: 20px;
+  border: none;
+}
